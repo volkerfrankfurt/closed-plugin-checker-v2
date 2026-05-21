@@ -4,20 +4,20 @@ Overview This update replaces the original Closed Plugin Checker (v1) with a com
 
 Key Improvements
 
-1. More Accurate Plugin Detection 
-v1: Uses less reliable URL parsing (wp_parse_url) and string comparison to detect WordPress.org plugins 
-v2: Leverages WordPress core's update_plugins transient with proper ID and package URL checking, mirroring how WP core actually determines plugin sources
+1. More Accurate Plugin Detection
+- v1: Uses less reliable URL parsing (wp_parse_url) and string comparison to detect WordPress.org plugins
+- v2: Leverages WordPress core's update_plugins transient with proper ID and package URL checking, mirroring how WP core actually determines plugin sources
 
-2. Production-Ready API Handling 
-v1. Deprecated Requests::request_multiple() library usage 
-v2. Uses native wp_remote_get() with proper error handling, response code checking, and fallback logic
+3. Production-Ready API Handling
+- v1. Deprecated Requests::request_multiple() library usage
+- v2. Uses native wp_remote_get() with proper error handling, response code checking, and fallback logic
 
 Enhanced User Experience / Features of version 2
-✅ Admin Notices - Dismissible warning with plugin list
-✅ Plugins Page Column - Visual status indicators
-✅ Plugin Page Row Highlight - Red background for closed plugins
-✅ Email Alerts - Automatic notifications on new closures
-✅ Improved Caching - Optimized single transient + transition tracking
+- ✅ Admin Notices - Dismissible warning with plugin list
+- ✅ Plugins Page Column - Visual status indicators
+- ✅ Plugin Page Row Highlight - Red background for closed plugins
+- ✅ Email Alerts - Automatic notifications on new closures
+- ✅ Improved Caching - Optimized single transient + transition tracking
 
 Email Alert System
 - New proactive monitoring sends email to admin when a plugin's status changes to "closed".
