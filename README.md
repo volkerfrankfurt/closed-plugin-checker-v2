@@ -13,13 +13,12 @@ v2: Leverages WordPress core's update_plugins transient with proper ID and packa
 v1. Deprecated Requests::request_multiple() library usage
 v2. Uses native wp_remote_get() with proper error handling, response code checking, and fallback logic
 
-3. Enhanced User Experience
-Feature	              version 1                   version 2
-Admin Notices	        None	                      ✅ Dismissible warning with plugin list
-Plugins Page Column	  None	                      ✅ Visual status indicators
-Row Highlighting      None	                      ✅ Red background for closed plugins on Wordpress plugins page
-Email Alerts	        None	                      ✅ Automatic notifications on new closures
-Caching	              Single plugin transients    ✅ Optimized single transient + transition tracking                  
+3. Enhanced User Experience / Features of version 2
+✅ Admin Notices	- Dismissible warning with plugin list
+✅ Plugins Page Column - Visual status indicators 
+✅ Plugin Page Row Highlight - Red background for closed plugins
+✅ Email Alerts - Automatic notifications on new closures
+✅ Improved Caching - Optimized single transient + transition tracking                  
                        	
 4. Email Alert System
 - New proactive monitoring sends email to admin when a plugin's status changes to "closed". 
