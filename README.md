@@ -65,6 +65,3 @@ Credits
 Original concept: Maciek Palmowski
 
 Prior version: GitHub - palmiak/closed-plugin-checker
-
-License
-Same as original - GPL v2 or later
