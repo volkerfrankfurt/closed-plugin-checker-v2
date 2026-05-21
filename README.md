@@ -14,13 +14,13 @@ v1. Deprecated Requests::request_multiple() library usage
 v2. Uses native wp_remote_get() with proper error handling, response code checking, and fallback logic
 
 3. Enhanced User Experience / Features of version 2
-✅ Admin Notices	- Dismissible warning with plugin list
-✅ Plugins Page Column - Visual status indicators 
-✅ Plugin Page Row Highlight - Red background for closed plugins
-✅ Email Alerts - Automatic notifications on new closures
-✅ Improved Caching - Optimized single transient + transition tracking                  
+   - ✅ Admin Notices	- Dismissible warning with plugin list
+   - ✅ Plugins Page Column - Visual status indicators
+   - ✅ Plugin Page Row Highlight - Red background for closed plugins
+   - ✅ Email Alerts - Automatic notifications on new closures
+   - ✅ Improved Caching - Optimized single transient + transition tracking                  
                        	
-4. Email Alert System
+5. Email Alert System
 - New proactive monitoring sends email to admin when a plugin's status changes to "closed". 
 
 5. Improved Site Health Integration
